@@ -1,0 +1,11 @@
+Programming Challenge:
+
+Given a set of integer ranges in the form (start, end) build
+a data structure that efficiently represents the available
+ranges.  Provide the following APIs:
+
+AddRange(start, end)
+	Given a new range, insert it into the datastructure.
+
+HasRange(start, end) returns true or false
+	The entire requested range is available
